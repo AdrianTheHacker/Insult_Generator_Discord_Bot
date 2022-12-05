@@ -1,0 +1,13 @@
+Priorities
+1. Create Polls
+    Parameters:
+    1) Poll Message
+    2) Poll Options
+    3) Specify which spreadsheet it is writing to [Priority Number 2]
+
+2. Write data to spreadsheet [Priority Number 2]
+
+
+Dependencies
+1. Javacord
+2. Dotenv
