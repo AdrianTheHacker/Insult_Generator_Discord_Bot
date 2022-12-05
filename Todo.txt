@@ -1,0 +1,16 @@
+A list of stuff to implement, and the priority of said stuff.
+
+1. Finish and test EnvFileReader
+
+2. Finish basic discord client -> [DONE]
+    - Should be able to say hello in text channels
+      using slash commands
+
+3. Add slash command for voting
+    - This should have two parameters:
+        1) The name of the poll
+        2) A list of all the Options
+            - These will likely be emojis
+
+    - The person who started that poll 
+      will choose when it ends.

@@ -8,11 +8,11 @@ import org.javacord.api.interaction.SlashCommand;
 import org.javacord.api.interaction.SlashCommandInteraction;
 
 
-public class DiscordBot {
+public class DiscordClient {
     private DiscordApi api;
 
 
-    public DiscordBot(String discordBotToken) {
+    public DiscordClient(String discordBotToken) {
         this.api = new DiscordApiBuilder()
             .setToken(discordBotToken)     
             .addIntents(Intent.MESSAGE_CONTENT)

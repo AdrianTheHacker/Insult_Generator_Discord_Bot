@@ -11,3 +11,5 @@ Priorities
 Dependencies
 1. Javacord
 2. Dotenv
+
+
