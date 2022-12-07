@@ -1,4 +1,4 @@
-package discord_voting_bot.env_file_reader;
+package discord_voting_bot.file_reader;
 
 import io.github.cdimascio.dotenv.Dotenv;
 

@@ -17,6 +17,7 @@ public class DiscordClient {
             .setToken(discordBotToken)     
             .addIntents(Intent.MESSAGE_CONTENT)
             .addIntents(Intent.GUILD_EMOJIS)
+            .addIntents(Intent.GUILD_MESSAGE_REACTIONS)
             .login()
             .join();
 
@@ -24,7 +25,7 @@ public class DiscordClient {
     }
 
     private void buildSlashCommands() {
-        SlashCommand command = SlashCommand.with("hello", "A friendly way to greet the bot")
+        SlashCommand command = SlashCommand.with("Insult Me", "I will make you cry")
             .createGlobal(this.api)
             .join();
     }
